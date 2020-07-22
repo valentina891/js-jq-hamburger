@@ -1,3 +1,7 @@
-$('.fas fa-bars').click(function() {
-    $('hamburger-menu').show();
+$('.header-right > a').click(function() {
+    $('.hamburger-menu').addClass('active');
+});
+
+$('.close').click(function() {
+    $('.hamburger-menu').removeClass('active');
 });
